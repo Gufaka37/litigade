@@ -1,0 +1,607 @@
+header {
+    width: 100%;
+    height: 823px;
+    background-image: url("../pics/cover.svg");
+    background-position: top;
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 823px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.logo h3 {
+    color: var(--text-color);
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    padding: 5px 10px;
+    color: var(--second-text-color);
+}
+
+.navigation-buttons {
+    display: flex;
+    margin-left: 35px;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: transparent;
+    margin-right: 15px;
+}
+.btn-img {
+    height: 100%;
+}
+
+.navbar-toggler {
+    margin-left: 150px;
+}
+
+.header-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header-container .header .text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.header-container .header .text .small-text {
+    width: 400px;
+    color: var(--second-text-color);
+    margin-top: 30px;
+}
+
+.header-container .header .text .text-buttons {
+    margin-top: 20px;
+}
+
+.text-button1 {
+    border-radius: 37px;
+    width: 150px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border: 0;
+    color: var(--light-text-color);
+    margin-right: 5px;
+}
+
+.text-button2 {
+    border-radius: 37px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid var(--secondary-color);
+    background: transparent;
+    color: var(--secondary-color);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    height: 500px;
+    background-color: var(--light-text-color);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px
+}
+
+.form input {
+    margin-top: 5px;
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.card button {
+    margin-top: 30px;
+    color: var(--light-text-color);
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--secondary-color-2);
+}
+
+/* Practice Advice */
+
+#practice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 732px;
+}
+
+.title {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title p {
+    color: var(--second-text-color);
+    padding-top: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.practice-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 330px;
+    height: 400px;
+    background-color: var(--secondary-color-3);
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.card-title img {
+    margin-right: 20px;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 260px;
+    background-color: var(--light-text-color);
+    z-index: 2;
+    border-radius: 10px;
+    border: 1px solid #A9D6FF;
+    padding: 30px 0;
+}
+
+.card-main ul {
+    margin: 0 50px;
+}
+
+.card-main h6 {
+    color: var(--second-text-color);
+}
+
+.card-main a {
+    margin: 5px 50px;
+    color: var(--primary-color);
+}
+
+
+/* Who We Are */
+
+#whoWeAre {
+    width: 100%;
+    height: 760px;
+    background: linear-gradient(#FAFAFA 55%, #295C7A 45%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    background-image: url("../pics/video.svg");
+    width: 875px;
+    height: 440px;
+}
+
+.video button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+
+    background-color: var(--secondary-color-2);
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    border: 0;
+}
+
+.video button img {
+    margin-top: 35px;
+}
+
+
+/* What Clients Say */
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 600px;
+    background-color: #F3F3F3;
+}
+
+.client-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 30px 35px;
+    width: 330px;
+    height: 200px;
+    background-color: var(--background-color);
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.review {
+    color: var(--second-text-color);
+    margin-top: 30px;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.client-info a {
+    color: var(--primary-color);
+}
+
+
+/* Meet Our Attorneys */
+
+#attorneys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 740px;
+}
+
+.attorney-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 330px;
+    height: 380px;
+    border: 1px solid #EEEEEE;
+    margin-right: 30px;
+}
+
+.attorney-card h5 {
+    margin-top: 30px;
+}
+
+.attorney-card h6 {
+    margin-top: 5px;
+    color: var(--second-text-color);
+}
+
+.attorney-card img {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 5px;
+}
+
+.icons img {
+    margin: 0 5px;
+}
+
+
+/* Contact us */
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 830px;
+    background-image: url("../pics/people-background.svg");
+    background-size: cover;
+}
+
+.contact-us {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 550px;
+}
+
+.contact-form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-form-row input {
+    width: 290px;
+    height: 40px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    background: #F9F9F9;
+    margin-right: 20px;
+    padding-left: 20px;
+    color: var(--muted-color);
+}
+
+.message {
+    margin-top: 20px;
+    width: 508px;
+    height: 140px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    background: #F9F9F9;
+    margin-right: 20px;
+    padding-left: 20px;
+    color: var(--muted-color);
+}
+
+.contact-us button {
+    width: 215px;
+    height: 60px;
+    background: var(--secondary-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--light-text-color);
+    margin-top: 40px;
+}
+
+.contacts-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*padding: 0 100px;*/
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background: #FAFAFA;
+    z-index: 2;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 460px;
+    margin-left: 300px;
+}
+
+.contact-text p {
+    margin-top: 10px;
+    color: var(--second-text-color);
+}
+
+.contacts-footer button {
+    margin-right: 320px;
+    width: 160px;
+    height: 60px;
+    background: var(--secondary-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--light-text-color);
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 530px;
+    width: 100%;
+    background: var(--text-color);
+}
+
+.footer-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-label h3 {
+    color: var(--light-text-color);
+    margin-right: 900px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons img {
+    margin-right: 20px;
+}
+
+hr {
+    width: 1180px;
+    border: 1px solid #364067;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.links-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.footer-links h5 {
+    color: var(--light-text-color);
+    margin-bottom: 20px;
+}
+
+.links-block a {
+    color: var(--muted-color);
+}
+
+.links-block li {
+    margin-bottom: 10px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-input {
+    display: flex;
+}
+
+.subscribe-input input {
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+    border-left: 1px  solid #E6E6E6;
+    border-bottom: 1px  solid #E6E6E6;
+    border-right: 0;
+    border-top: 1px  solid #E6E6E6;
+    background: #F9F9F9;
+    color: var(--muted-color);
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-input button {
+    width: 120px;
+    border-left: 0;
+    border-bottom: 1px  solid #E6E6E6;
+    border-right: 1px  solid #E6E6E6;
+    border-top: 1px  solid #E6E6E6;
+    background: var(--primary-color);
+    border-radius: 0 5px 5px 0;
+    color: var(--light-text-color);
+}
+
+.subscribe p {
+    color: var(--muted-color);
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.footer-footer {
+    display: flex;
+    justify-content: center;
+
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+    margin-top: 100px;
+}
+
+.footer-footer h6 {
+    color: var(--light-text-color);
+    margin-top: 20px;
+    margin-right: 680px;
+}
