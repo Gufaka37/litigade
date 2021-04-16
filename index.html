@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Litigade</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
 
 </head>
 <body>
     <header>
         <div class="header-container">
-            <nav class="navbar">
+            <nav class="navbar navbar-desktop">
                 <div class="logo">
                     <h3>Litigade</h3>
                 </div>
@@ -41,6 +44,40 @@
                     <button class="navbar-toggler button">
                         <img src="pics/navbar-toggler.svg" alt="toggler">
                     </button>
+                </div>
+            </nav>
+            <nav class="navbar navbar-mobile">
+                <div class="navbar-mobile-view">
+                    <div class="logo">
+                        <h3>Litigade</h3>
+                    </div>
+                    <div class="navigation-buttons">
+                        <button class="button">
+                            <img class="btn-img" src="pics/loupe.svg" alt="loupe">
+                        </button>
+                        <button class="button">
+                            <img class="btn-img" src="pics/shoppingCart.svg" alt="cart">
+                        </button>
+                    </div>
+                    <button class="navbar-toggler button">
+                        <img src="pics/navbar-toggler.svg" alt="toggler">
+                    </button>
+                </div>
+                <div class="navbar-content">
+                    <ul class="navigation">
+                        <li>
+                            <a class="mobile-menu" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu" href="#">Product</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <div class="header">
